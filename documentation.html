@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Open Access Publishing Service-HHW&LYF</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Open Access Publishing Service</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">License</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="post.html">Mission Statement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="documentation.html">Documentation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/document.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Documentation</h1>
+            <h2 class="subheading">Thanks for you reading</h2>
+            <span class="meta">Posted by
+              <a href="https://github.com/HHWandLYF/Open-Access-Publishing-Service">HHW&LYF</a>
+              on April 11, 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+
+          <h2 class="section-heading">Use Case</h2>
+
+          <p>
+            Name: Submit an article
+          </p>
+          <p>
+            Description:
+          </p>
+          <p>
+            The author uses the Open Access Publishing service to contribute new articles.
+          </p>
+          <p>
+            Preconditions:
+          </p>
+          <p>
+            The author is a real person, not a bot.
+          </p>
+          <p>
+            Postconditions:
+          </p>
+          <p>
+            The author will submit an article if he/she is eligible.
+          </p>
+          <p>
+            Basic Course of Action:
+          </p>
+          <p>
+            1.The use case begins when an author wants to submit an article.
+          </p>
+          <p>
+            2.The author click the button “publish a new article.
+          </p>
+          <p>
+            3.The author select the General Subject and the Special Subject.
+          </p>
+          <p>
+            4.The author input the Tittle, the Abstract and his/her email address into the service.
+          </p>
+          <p>
+            5. The author select the article which is PDF file from his/her computer and click the button “upload the file”
+          </p>
+          <p>
+            6.The author click the button “PUBLISH NOW” to service.
+          </p>
+          <p>
+            7.The service records the publish time likes yyyy-mm-dd hh:mm.
+          </p>
+          <p>
+            8. The service verifies the email address is valid.
+          </p>
+          <p>
+            9.The service verifies the author is eligible and verifies if the author’s email address is blacklisted for a period of time by the service administrator.
+          </p>
+          <p>
+            10.The service verifies all required fields is filled in.
+          </p>
+          <p>
+            11.The service verifies the subject is chosen.
+          </p>
+          <p>
+            12.The service checks the article submission form.
+          </p>
+          <p>
+            13. The service insert the file and the information of the file into the database
+          </p>
+          <p>
+            14.The service informs the author submit the article successful.
+          </p>
+          <p>
+            15.The use case ends when the author takes the successful information.
+          </p>
+          <p>
+            Alternate Course A: Some required fields are not filled out
+          </p>
+          <p>
+            A.1.The server determines the author is not filled in all required.
+          </p>
+          <p>
+            A.2.The page informs the author he/she is not filled in all required.
+          </p>
+          <p>
+            A.3.The use case continues at Step4 in the basic course of action.
+          </p>
+          <p>
+            Alternate Course B: An invalid email address is provided
+          </p>
+          <p>
+            B.4.The server determines the author’s email address is invalid.
+          </p>
+          <p>
+            B.5.The page informs the author his/her email address is invalid.
+          </p>
+          <p>
+            B.6. The use case continues at Step4 in the basic course of action.
+          </p>
+          <p>
+            Alternate Course C: The file format is not PDF.
+          </p>
+          <p>
+            C.7.When the author selects the file, he/she will can not find the file which is not a PDF file.
+          </p>
+          <p>
+            C.8.The use case ends.
+          </p>
+          <p>
+            Alternate Course D: No subject is chosen.
+          </p>
+          <p>
+            D.9.The server determines the author is not chose a subject.
+          </p>
+          <p>
+            D.10.The page informs the author is not chose a subject.
+          </p>
+          <p>
+            D.11. The use case continues at Step3 in the basic course of action.
+          </p>
+          <p>
+            Alternate Course E: Contain inappropriate words in the article submission form.
+          </p>
+          <p>
+            E.12.The server determines the article submission form contain inappropriate.
+          </p>
+          <p>
+            E.13.The page warns the author is write inappropriate words.
+          </p>
+          <p>
+            E.14. The use case continues at Step4 in the basic course of action.
+          </p>
+          <h2 class="section-heading">Class Diagram</h2>
+          <p>
+            1.How did I come up with the current classes and why?
+          </p>
+          <p>
+            ①The project descript the authors can use the service to share their articles, so we need a class to save information and action of articles called “Article”.
+          </p>
+          <p>
+            ②The project descript the articles have a generalsubject and a subject, so we need two classes to save information and perform action of subject called “GeneralSubject” and “Subject” .
+          </p>
+          <p>
+            ③The project descript the articles published to the service can be commented by unlimited number of reviewers, so we need two classes to save information and perform action of subject called “Comment” and “InnerComment” .
+          </p>
+          <p>
+            ④The project descript each article, as well as each comment, can be up-voted or down-voted, so we need two classes to save information and perform action of subject called “Liked” and “Dislike” .
+          </p>
+          <p>
+            2.Are there any reconstructions/revisions?
+          </p>
+          <p>
+            We don’t have any reconstruction/revisions, because the project description is vary clear and our pre-planning is good.
+          </p>
+          <p>
+            3.What are the interactions between classes/objects?
+          </p>
+          <p>
+            ①The all classes have a same method “to_jscn” to interact with object. The sqlalchemy does not provide a serialization method, so we need to serialize the data which we query.
+          </p>
+          <p>
+            ② The Article class has a method “__repr__” to interact with object. Implement class to string conversion.
+          </p>
+          <p>
+            4.What is the relationship between two classes.  Inheritance, composition or aggregation? Or something else.
+          </p>
+          <p>
+            We don’t have any relationship between classes.
+          </p>
+          <img src="document.files/image006.jpg" alt="" class="img-fluid">
+          <h2 class="section-heading">Database schema</h2>
+          <li>subject: stores the subject information</li>
+          <li>general subject: stores the general subject information</li>
+          <li>article: stores a list of article information and article file</li>
+          <li>comment: stores the content and information</li>
+          <li>innerCommernt: store the content and information</li>
+          <li>liked: stores the details of the like</li>
+          <li>disliked: stores the details of the dislike</li>
+          <img src="document.files/image007.png" alt="" class="img-fluid">
+          <h2 class="section-heading">Code quality</h2>
+          <p>
+            (1) Maintainability Index (MI) of service.py as returned by radon mi -s service.py.
+          </p>
+          <p>
+            Answer:
+          </p>
+          <p>
+            app.py - A (38.16)
+          </p>
+          <p>
+            (2) Scalability. Will your design/implementation work for thousands of users publishing tens of thousands of papers over a period of ten years. If yes, answer why and how?
+          </p>
+          <p>
+            Answer:
+          </p>
+          <p>
+            Yes. Because when an Open Access Publishing Service building and it is free, it will be more and more popular and a lot of people will hope to download the file what they need from the service or display they ideals.
+          </p>
+          <p>
+            The ways about how to realize are listed as follows.
+          </p>
+          <p>
+            1.Prepare a better and big server and not using cloud server. And the server will have professional person to maintain.
+          </p>
+          <p>
+            2.We will keep updating our code, let it more reasonable and deduce bugs.
+          </p>
+          <p>
+            3. We hope it can be multithreading.
+          </p>
+          <p>
+            Then the tasks that take up a long time in a program can be handled in the background, user interface can be more attractive and programs may run faster.
+          </p>
+          <p>
+            4.We will expand the databases. Then the database can fill in all what we need,
+          </p>
+          <p>
+            5.We aggregability to use client-sever model rather than p2p, because it will safer and easily management.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+
+
+            <li class="list-inline-item">
+              <a href="https://github.com/HHWandLYF/Open-Access-Publishing-Service">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; HHW&LYF  2019</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
